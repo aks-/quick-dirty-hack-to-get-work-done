@@ -5,11 +5,16 @@ body {
   align-items: center;
   background: #d04e46;
   color: white;
-  font-family: "Helvetica Light"
+  font-family: "Helvetica";
+  font-weight: lighter;
 }
 
 header {
   text-decoration: underline;
+}
+
+.text-container {
+  width: 30%;
 }
 
 .black {
