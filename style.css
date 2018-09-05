@@ -1,11 +1,15 @@
 body {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #d04e46;
   color: white;
   font-family: "Helvetica Light"
+}
+
+header {
+  text-decoration: underline;
 }
 
 .black {

@@ -1,3 +1,5 @@
+const headertext = 'Header Text'
+
 let content = `
   { hey } hello woot mate <boo> what { moo } what { coo } what { doo } what { poo } pop
 `
@@ -7,12 +9,13 @@ content = content.replace(/</g, '<span class="black underline">')
 content = content.replace(/>/g, '</span>')
 content = content.replace(/{/g, '<span class="black">')
 content = content.replace(/}/g, '</span>')
-console.log(content)
 
 const textContainer = document.querySelector('.text-container')
 const poppedWord = document.querySelector('.pop')
+const header = document.querySelector('header')
 let blacks = null
 
+header.textContent = headertext
 function addContent (content) {
   textContainer.innerHTML = `<p>${content}</p>`
   blacks = document.querySelectorAll('.black')
