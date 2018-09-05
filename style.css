@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #d04e46;
+  color: white;
+  font-family: "Helvetica Light"
+}
+
+.black {
+  color: black;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.pop {
+  font-weight: bold;
+}
